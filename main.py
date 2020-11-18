@@ -8,7 +8,7 @@ def show_student_id():
     return 'Hello World 30 '
 
 with make_server('',5000,app) as server:
-    print('Second Hello')
+    print('http://127.0.0.1:5000/api/v1/hello-world-30')
 
     server.serve_forever()
 
